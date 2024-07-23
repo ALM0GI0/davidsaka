@@ -11,60 +11,13 @@ body {
 
 .container {
     text-align: center;
-    padding: 20px;
 }
 
 .photo img {
     border-radius: 50%;
-    width: 200px; /* Fixed width */
-    height: 200px; /* Fixed height */
+    width: 200px;
+    height: 200px;
     object-fit: cover;
-}
-
-.about-artist {
-    margin-top: 20px;
-}
-
-.about-artist h2 {
-    margin-bottom: 10px;
-    font-size: 1.5em;
-}
-
-.about-artist p {
-    font-size: 1.2em;
-    margin: 0 20px;
-}
-
-.latest-releases {
-    margin-top: 20px;
-}
-
-.latest-releases h2 {
-    margin-bottom: 10px;
-    font-size: 1.5em;
-}
-
-.release {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.release img {
-    width: 150px; /* Adjust as needed */
-    height: 150px; /* Adjust as needed */
-    object-fit: cover;
-    border-radius: 10px;
-    margin-bottom: 10px;
-}
-
-.release p {
-    font-size: 1.2em;
-}
-
-.release a {
-    color: #1DB954;
-    text-decoration: none;
 }
 
 .contact-info {
